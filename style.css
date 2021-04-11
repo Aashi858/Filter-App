@@ -1,0 +1,20 @@
+body{
+    background-image: url("background image.jpg");
+    font-family: 'PT Serif', serif;
+    color: azure;
+}
+canvas{
+    width: 100px;
+    height: 100px;
+    animation: mymove 5s infinite;
+    margin-top: 50px;
+}
+@keyframes mymove{
+     50% {box-shadow: 1px 1px 40px crimson;}
+}
+.btn-info{
+    width: 20%;
+}
+.btn-success:hover{
+    background-color: darkorange;
+}
